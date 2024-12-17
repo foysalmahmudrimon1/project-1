@@ -1,14 +1,28 @@
+body {
+  /* header */
+
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+}
+
+.header {
+  background: antiquewhite;
+
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+
+  background-position: bottom right;
+  background-size: 600px;
+}
 nav {
+  padding: 0px 50px 50px 0px;
   display: flex;
   justify-content: space-between;
 
   align-items: center;
 }
-body {
-  font-family: "Open Sans", sans-serif;
-}
 
-#yy {
+#span-oo {
   color: orange;
 }
 .manu {
@@ -21,7 +35,6 @@ ul {
 }
 nav > ul > li {
   margin-left: 50px;
-
 }
 
 .btn-primary {
@@ -32,7 +45,23 @@ nav > ul > li {
   font-size: 15px;
   color: white;
 }
-.nav-logo{
-
+.nav-logo {
   margin-left: 25px;
 }
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+
+  margin-top: -100px;
+}
+
+.name {
+  font-size: 50px;
+}
+.profile-image {
+  margin-bottom: -5px;
+}
+
+/*main*/

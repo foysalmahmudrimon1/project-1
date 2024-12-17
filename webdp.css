@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#yy {
+  color: orange;
+}
+.manu {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  margin-right: 25px;
+}
+nav > ul > li {
+  margin-left: 50px;
+
+}
+
+.btn-primary {
+  background-color: orange;
+  border-radius: 3px;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  color: white;
+}
+.nav-logo{
+
+  margin-left: 25px;
+}

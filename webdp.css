@@ -3,16 +3,24 @@ body {
 
   font-family: "Open Sans", sans-serif;
   margin: auto;
+  background-color: whitesmoke;
 }
 
 .header {
   background: antiquewhite;
-
+  /* 
   background-image: url(images/header_bg.png);
   background-repeat: no-repeat;
 
   background-position: bottom right;
-  background-size: 600px;
+   */
+
+  background: url(images/developer.png) left center no-repeat,
+    url(images/header_bg.png) right bottom no-repeat;
+
+  margin: 0px 0px 0px 20px;
+
+  background-size: 65px, 600px, auto;
 }
 nav {
   padding: 0px 50px 50px 0px;
@@ -31,7 +39,7 @@ nav {
 }
 ul {
   list-style: none;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 nav > ul > li {
   margin-left: 50px;
@@ -46,7 +54,9 @@ nav > ul > li {
   color: white;
 }
 .nav-logo {
-  margin-left: 25px;
+  font-size: 30px;
+
+  margin-left: 100px;
 }
 .banner {
   display: flex;
@@ -65,3 +75,69 @@ nav > ul > li {
 }
 
 /*main*/
+
+.about {
+  background-color: antiquewhite;
+  text-align: center;
+  margin: 60px;
+
+  padding: 50px;
+}
+.bio {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+}
+
+.p {
+  margin-top: -0.3px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.skill-section {
+  margin: 60px;
+
+  padding: 50px;
+}
+
+.section-two {
+  justify-items: center;
+  text-align: center;
+}
+
+.carts {
+  display: flex;
+
+  margin-top: -100px;
+
+  padding: 50px;
+}
+
+.cart-one {
+  margin: 5px;
+  padding: 15px;
+  background-color: white;
+  /* box-shadow: 5px 5px 5px 5px  */
+}
+.cart-two {
+  margin: 5px;
+  padding: 15px;
+  background-color: white;
+}
+
+.cart-three {
+  margin: 5px;
+  padding: 15px;
+  background-color: white;
+}
+
+.cart-four {
+  margin: 5px;
+  padding: 15px;
+  background-color: white;
+}

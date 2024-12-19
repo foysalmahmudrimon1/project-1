@@ -141,3 +141,46 @@ nav > ul > li {
   padding: 15px;
   background-color: white;
 }
+
+.summary{
+
+
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-bottom: 80px;
+
+}
+
+.summary-title{
+
+
+  text-align: center;
+}
+
+.education {
+
+}
+.border {
+  border-bottom: solid ;
+  border-color: gray;
+}
+.footer-content{
+
+display: flex;
+justify-content: space-between;
+
+
+padding:  150px;;
+
+
+
+
+}
+
+
+.footer{
+
+background-color: antiquewhite;
+
+}

@@ -142,45 +142,38 @@ nav > ul > li {
   background-color: white;
 }
 
-.summary{
-
-
-display: flex;
-justify-content: center;
-gap: 20px;
-margin-bottom: 80px;
-
+.summary {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 80px;
 }
 
-.summary-title{
-
-
+.summary-title {
   text-align: center;
 }
 
 .education {
-
 }
 .border {
-  border-bottom: solid ;
+  border-bottom: solid;
   border-color: gray;
 }
-.footer-content{
+.footer-content {
+  display: flex;
+  justify-content: space-between;
 
-display: flex;
-justify-content: space-between;
-
-
-padding:  150px;;
-
-
-
-
+  padding: 150px;
 }
 
+.footer {
+  background-color: antiquewhite;
+}
 
-.footer{
+.naem {
+  padding: 10px 0px 10px 50px;
+}
 
-background-color: antiquewhite;
-
+.Message-bar {
+  padding: 10px 0px 60px 50px;
 }
